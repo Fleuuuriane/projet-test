@@ -1,0 +1,34 @@
+body {
+    background-image:url("swirl_pattern.png") }
+
+div {
+    background-color: white; 
+    width: 50%;
+    margin: auto;
+    padding: 30px;
+}
+
+@font-face {
+    font-family: "CaviarDreams";
+    src: url('CaviarDreams.ttf');
+}
+
+h1 { font-family: CaviarDreams; 
+     font-size: 45px;
+}
+
+h2 { font-family: CaviarDreams; 
+     font-variant: small-caps; 
+     font-size: 35px;
+}
+
+h4 { font-family: arial; 
+     font-size: 17px;
+    
+}
+
+p { font-family: CaviarDreams;
+}
+
+li { font-family: arial;
+}
