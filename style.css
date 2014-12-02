@@ -1,20 +1,40 @@
 body {
-    background-image:url("swirl_pattern.png") }
+    background-image:url("swirl_pattern.png") 
+}
 
 header {
     background-color:#e9e9e9;
     font-family: CaviarDreams;
     font-variant: small-caps; 
-    font-size: 18px;
-    
-}
-    
-li { display:inline;
-    text-decoration: none;
+    font-size: 18px; 
+    padding-top: 5px;
+    padding-bottom: 5px;
     
 }
 
+header li {
+    display:inline-block;
+    margin-left: 15px;
+    margin-right: 15px;
+    width: 29%;
+    text-align:center;  
+}
+
+header a:hover{
+    color:#F08080;
+    
+       
+}
+
+header.active {
+    color:#F08080;
+}
+    
+
+
+
 a { color:gray;
+    text-decoration:none;
     
 }
 
@@ -31,12 +51,15 @@ div {
 }
 
 h1 { font-family: CaviarDreams; 
-     font-size: 45px;
+     font-size: 40px;
+     color:#F08080;
+     text-align:center;
 }
 
 h2 { font-family: CaviarDreams; 
      font-variant: small-caps; 
-     font-size: 35px;
+     font-size: 30px;
+     color:#808080;
 }
 
 h4 { font-family: arial; 
@@ -48,4 +71,5 @@ p { font-family: CaviarDreams;
 }
 
 li { font-family: arial;
+   
 }
