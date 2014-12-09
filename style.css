@@ -50,6 +50,19 @@ div {
     src: url('CaviarDreams.ttf');
 }
 
+@font-face {
+    font-family: "Always In My Heart";
+    src: url('Always In My Heart.ttf');
+}
+
+
+h6 { font-family: Always In My Heart; 
+     font-size: 50px;
+     color:#F08080;
+     text-align:center;
+     margin: 20px;
+}
+
 h1 { font-family: CaviarDreams; 
      font-size: 40px;
      color:#F08080;
@@ -59,17 +72,47 @@ h1 { font-family: CaviarDreams;
 h2 { font-family: CaviarDreams; 
      font-variant: small-caps; 
      font-size: 30px;
+     color:#808080;   
+     }
+
+h3 { font-family: CaviarDreams; 
+     font-size: 20px;
      color:#808080;
-}
+     text-align:center;
+     }
 
 h4 { font-family: arial; 
      font-size: 17px;
-    
+    }
+
+
+h5 { font-family: CaviarDreams; 
+     font-size: 30px;
+     color:#F08080;
+     text-align:center;
 }
 
+
 p { font-family: CaviarDreams;
+    text-align:center;
+    font-size: 20px;
 }
 
 li { font-family: arial;
    
+}
+
+
+img {
+    border-radius: 50%;
+    width: 20%;
+    display: block;
+    margin: auto;
+    
+}
+
+.icone {
+    
+   width:50px;
+    border-radius: 0px;
 }
