@@ -67,6 +67,8 @@ h1 { font-family: CaviarDreams;
      font-size: 40px;
      color:#F08080;
      text-align:center;
+     border-bottom:1px solid #F08080;
+     padding:15px;
 }
 
 h2 { font-family: CaviarDreams; 
@@ -90,12 +92,15 @@ h5 { font-family: CaviarDreams;
      font-size: 30px;
      color:#F08080;
      text-align:center;
+     
 }
 
 
 p { font-family: CaviarDreams;
-    text-align:center;
+    text-align:left;
     font-size: 20px;
+    padding-left:150px;
+    
 }
 
 li { font-family: arial;
@@ -104,15 +109,16 @@ li { font-family: arial;
 
 
 img {
-    border-radius: 50%;
+    border-radius: 200%;
     width: 20%;
     display: block;
     margin: auto;
-    
 }
 
 .icone {
     
-   width:50px;
-    border-radius: 0px;
+   width:40px;
+   border-radius: 0px;
+   padding:7px; 
+   
 }
