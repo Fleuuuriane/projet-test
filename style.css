@@ -1,5 +1,6 @@
 body {
-    background-image:url("swirl_pattern.png") 
+    background-image:url("swirl_pattern.png");
+    
 }
 
 header {
@@ -69,12 +70,14 @@ h1 { font-family: CaviarDreams;
      text-align:center;
      border-bottom:1px solid #F08080;
      padding:15px;
+    
 }
 
 h2 { font-family: CaviarDreams; 
      font-variant: small-caps; 
      font-size: 30px;
-     color:#808080;   
+     color:#808080; 
+     
      }
 
 h3 { font-family: CaviarDreams; 
@@ -96,12 +99,7 @@ h5 { font-family: CaviarDreams;
 }
 
 
-p { font-family: CaviarDreams;
-    text-align:left;
-    font-size: 20px;
-    padding-left:150px;
-    
-}
+
 
 li { font-family: arial;
    
@@ -115,10 +113,69 @@ img {
     margin: auto;
 }
 
-.icone {
+.gateau {
     
    width:40px;
    border-radius: 0px;
    padding:7px; 
+    margin-left:10px;
+}
+
+
+.mail {
+    
+   width:40px;
+   border-radius: 0px;
+   padding:7px; 
+    margin-left:10px;
+}
+
+
+.tel {
+    
+   width:40px;
+   border-radius: 0px;
+   padding:7px; 
+    margin-left:10px;
+}
+
+
+
+.texte1 {
+
+font-family: CaviarDreams;
+font-size: 15px;
+margin:5px;
+    
+}
+
+
+.texte2 {
+
+font-family: CaviarDreams;
+font-size: 15px;
+margin:5px;
+    
+}
+
+
+.texte3 {
+
+font-family: CaviarDreams;
+font-size: 15px;
+margin:5px;
+    
+}
+
+
+table {
+    
+   margin-left: auto;
+   margin-right: auto;
    
+}
+
+.texte2 a:hover {
+    
+    color:#F08080 ;
 }
