@@ -1,7 +1,7 @@
 body {
     background-image:url("swirl_pattern.png");
-    
 }
+
 
 header {
     background-color:#e9e9e9;
@@ -10,8 +10,8 @@ header {
     font-size: 18px; 
     padding-top: 5px;
     padding-bottom: 5px;
-    
 }
+
 
 header li {
     display:inline-block;
@@ -21,11 +21,11 @@ header li {
     text-align:center;  
 }
 
+
 header a:hover{
     color:#F08080;
-    
-       
 }
+
 
 header.active {
     color:#F08080;
@@ -33,28 +33,30 @@ header.active {
     
 
 
-
 a { color:gray;
     text-decoration:none;
-    
 }
+
 
 div {
     background-color: white; 
     width: 50%;
     margin: auto;
-    padding: 30px;
+    padding: 9px;
 }
+
 
 @font-face {
     font-family: "CaviarDreams";
     src: url('CaviarDreams.ttf');
 }
 
+
 @font-face {
     font-family: "Always In My Heart";
     src: url('Always In My Heart.ttf');
 }
+
 
 
 h6 { font-family: Always In My Heart; 
@@ -70,39 +72,37 @@ h1 { font-family: CaviarDreams;
      text-align:center;
      border-bottom:1px solid #F08080;
      padding:15px;
-    
 }
+
 
 h2 { font-family: CaviarDreams; 
      font-variant: small-caps; 
      font-size: 30px;
      color:#808080; 
-     
-     }
+}
+
 
 h3 { font-family: CaviarDreams; 
      font-size: 20px;
      color:#808080;
      text-align:center;
-     }
+}
+
 
 h4 { font-family: arial; 
      font-size: 17px;
-    }
+}
 
 
 h5 { font-family: CaviarDreams; 
      font-size: 30px;
      color:#F08080;
      text-align:center;
-     
 }
 
 
 
-
 li { font-family: arial;
-   
 }
 
 
@@ -122,9 +122,26 @@ img {
 }
 
 
+.facebook {
+    
+   width:40px;
+   border-radius: 0px;
+   padding:7px; 
+    margin-left:10px;
+}
+
 .mail {
     
    width:40px;
+   border-radius: 0px;
+   padding:7px; 
+    margin-left:10px;
+}
+
+
+.instagram {
+    
+   width:38px;
    border-radius: 0px;
    padding:7px; 
     margin-left:10px;
@@ -146,7 +163,6 @@ img {
 font-family: CaviarDreams;
 font-size: 15px;
 margin:5px;
-    
 }
 
 
@@ -155,7 +171,6 @@ margin:5px;
 font-family: CaviarDreams;
 font-size: 15px;
 margin:5px;
-    
 }
 
 
@@ -164,18 +179,40 @@ margin:5px;
 font-family: CaviarDreams;
 font-size: 15px;
 margin:5px;
-    
+}
+
+
+.texte4 {
+
+font-family: CaviarDreams;
+font-size: 15px;
+margin:5px;
 }
 
 
 table {
-    
-   margin-left: auto;
-   margin-right: auto;
-   
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .texte2 a:hover {
-    
-    color:#F08080 ;
+    color:#F08080;
 }
+
+
+.texte4 a:hover {
+    color:#F08080;
+}
+
+.texte5 a:hover {
+    color:#F08080;
+}
+
+
+
+.texte5 {
+font-family: CaviarDreams;
+font-size: 15px;
+margin:5px;
+}
+
